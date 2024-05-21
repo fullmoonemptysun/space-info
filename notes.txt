@@ -1,0 +1,3 @@
+Using hsl(var()) in utility classes can help us add alpha values if needed:
+    hsl(var() / opacityVal).
+
