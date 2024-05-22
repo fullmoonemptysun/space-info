@@ -1,3 +1,14 @@
-Using hsl(var()) in utility classes can help us add alpha values if needed:
+1. Using hsl(var()) in utility classes can help us add alpha values if needed:
     hsl(var() / opacityVal).
 
+
+2. letter-spacing property for space between characters.
+
+3. div > div + div : selects child divs that have a sibling before
+
+4. outline vs border: outline lies outside the borders and are not a part of the element in terms of size and flow. They can also overlap other elments.
+
+5. aspect-ratio: width to height ratio of an element. 
+
+
+6. 
