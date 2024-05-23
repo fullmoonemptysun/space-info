@@ -39,3 +39,8 @@
 
 
 7. ::after pseudo class adds a last child to any element.
+
+
+8. div > a means a that is a immediate child of div. but div a means any descendant.
+
+9. 
