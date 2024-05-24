@@ -43,4 +43,4 @@
 
 8. div > a means a that is a immediate child of div. but div a means any descendant.
 
-9. 
+9. :focus is like hover but with keyboard. (nintendo switch)

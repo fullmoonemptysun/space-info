@@ -25,6 +25,10 @@
     --ff-sans-cond: "Barlow Condensed", sans-serif;
     --ff-sans-normal: "Barlow", sans-serif;
 
+
+    /*Underline padding*/
+    --underline-pad: 1rem;
+
     
     
 }
@@ -254,6 +258,7 @@ select{
 }
 
 .primary-navigation{
+  --underline-padding: 2rem;
   list-style: none;
   padding: 0;
   margin: 0;  
@@ -271,23 +276,34 @@ select{
 
 /* ----Underline Indicator---- */
 .underline-indicator > *{
-  padding-bottom: 2em;
+  padding: var(--underline-padding, 1rem) 0;
 }
 
-.underline-indicator  > *:hover{
-  border-bottom: grey 2px solid;
+.underline-indicator > *:hover,
+.underline-indicator > *:focus{
+  border-bottom: hsl(var(--clr-white) / 0.5) 0.2em solid;
 
 }
 
 .underline-indicator .active{
-  border-bottom: hsl(var(--clr-white)) 2px solid;
+  border-bottom: hsl(var(--clr-white)) 0.2em solid;
 }
 
 .underline-indicator > *:active{
-  border-bottom: hsl(var(--clr-light)) 2px solid;
+  border-bottom: hsl(var(--clr-light)) 0.2em solid;
 }
 
 
 
+/*tab-items*/
+.tab-items{
+  --underline-padding: 0.2rem;
+}
 
+.tab-items > button{
+  background-color: hsl(var(--clr-dark));
+  padding: 0;
+  border: none;
+  color: hsl(var(--clr-white));
+}
 
